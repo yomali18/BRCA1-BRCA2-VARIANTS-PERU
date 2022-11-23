@@ -1,0 +1,950 @@
+ID patient;ID laboratory;Gender;Clinical stage;Birth place (by deparments);Birth place (by regions);Health Center name;Birth date (dd/mm/yyyy);ID registration date (dd/mm/yyyy);Death date (dd/mm/yyyy);Age at registration (years);Age of death (years);Time between age at registration to death (years);Cancer type;DX subtype;Hugo Symbol;Sample ID;Protein Change;Exon;HSGVc;HSGVp;Variant type;Germline variant classification
+6;AZ006;F;III;LIMA;LIMA/CALLO;AUNA;12/06/1973;22/05/2018;29/06/2018;44;45;1;breast;HER2- RH-;BRCA1;TMR15-0430;L702Ffs*10;10;c.2105dupT;p.Leu702Phefs*10;inframe insertion;pathogenic
+71;AZ071;F;IV;HUANUCO;HIGHLANDS;INEN;29/12/1979;5/11/2018;30/11/2018;38;38;0;breast;HER2- RH+;BRCA1;TMR15-0643;K654Sfs*47;10;c.1961delA;p.Lys654Serfs*47;inframe deletion;pathogenic
+84;AZ083;F;III;LAMBAYEQUE;COAST;Hospital Edgardo Rebagliati Martins;17/03/1969;15/11/2018;;49;;;breast;HER2- RH-;BRCA1;TMR15-0660;E23Vfs*17;2;c.68_69delAG;p.Glu23Valfs*17;inframe deletion;pathogenic
+188;AZ180;F;IV;LAMBAYEQUE;COAST;Hospital Nacional Guillermo Almenara;20/10/1965;21/03/2019;5/12/2019;53;54;1;breast;HER2- RH-;BRCA1;TMR15-0861;D1152Afs*3;10;c.3455delA;p.Asp1152Alafs*3;inframe deletion;pathogenic
+243;AZ233;F;IV;ICA;COAST;Privado;13/09/1959;16/05/2019;;59;;;breast;HER2- RH- ;BRCA1;TMR15-0952;I31M;3;c.93C>G;p.Ile31Met;missense variant;VUS
+372;AZ353;F;IV;LIMA;LIMA/CALLO;AUNA;24/02/1983;23/09/2019;;36;;;breast;HER2- RH-;BRCA1;TMR15-1173;L702Ffs*10;10;c.2105dupT;p.Leu702Phefs*10;inframe insertion;pathogenic
+591;NA;F;IV;CALLAO;LIMA/CALLO;Privado;;25/09/2020;;;;;breast;HER2- RH-;BRCA1;TMR15-1674;R1751*;19;c.5251C>T;p.Arg1751*;missense variant;pathogenic
+598;NA;F;IV;LIMA;LIMA/CALLO;AUNA;30/07/1990;1/10/2020;;30;;;breast;HER2- RH-;BRCA1;TMR15-1688;E23_P25del;2;c.67_75delGAGTGTCCC;p.Glu23_Pro25del;inframe deletion;likely pathogenic
+612;AZ559;F;III;LAMBAYEQUE;COAST;Hospital Almanzor Aguinaga Asenjo;12/10/1980;20/10/2020;;40;;;breast;HER2- RH-;BRCA1;TMR15-1716;C47F;4;c.140G>T;p.Cys47Phe;missense variant;pathogenic
+662;AZ600;F;IV;LA LIBERTAD;COAST;AUNA;6/08/1969;8/01/2021;;51;;;breast;HER2- RH-;BRCA1;TMR15-1834;L702Ffs*10;10;c.2105dupT;p.Leu702Phefs*10;inframe insertion;pathogenic
+663;AZ601;F;IV;LIMA;LIMA/CALLO;AUNA;20/09/1969;15/01/2021;;51;;;breast;HER2- RH-;BRCA1;TMR15-1842;Q310*;10;c.928C>T;p.Gln310*;missense variant;pathogenic
+668;PF005;F;III;PIURA;COAST;INEN;7/07/1964;26/01/2021;;56;;;breast;HER2- RH-;BRCA1;TMR15-1854;R1443*;12;c.4327C>T;p.Arg1443*;missense variant;pathogenic
+670;PF006;F;IV;LIMA;LIMA/CALLO;AUNA;14/03/1958;27/01/2021;;62;;;breast;HER2- RH-;BRCA1;TMR15-1856;Q1756Pfs*74;19;c.5266dupC;p.Gln1756Profs*74;inframe insertion;pathogenic
+690;AZ627;F;IV;LA LIBERTAD;COAST;Clinica Sanna;14/03/1984;16/03/2021;;37;;;breast;HER2- RH-;BRCA1;TMR15-1913;A1708E;17;c.5123C>A;p.Ala1708Glu;missense variant;pathogenic
+2;AZ002;F;III;ANCASH;COAST;INEN;4/04/1968;26/04/2018;11/08/2020;50;52;2;ovarian;Alto grado seroso;BRCA1;TMR15-0398;T276Afs*14;10;c.815_824dupAGCCATGTGG;p.Thr276Alafs*14;inframe insertion;pathogenic
+4;AZ004;F;III;LIMA;LIMA/CALLO;Clinica Good Hope;8/04/1971;2/05/2018;;47;;;ovarian;Alto grado seroso;BRCA1;TMR15-0405;E23Vfs*17;2;c.68_69delAG;p.Glu23Valfs*17;inframe deletion;pathogenic
+11;AZ011;F;III;LIMA;LIMA/CALLO;Hospital Edgardo Rebagliati Martins;15/07/1966;6/06/2018;23/12/2019;51;53;2;ovarian;Alto grado seroso;BRCA1;TMR15-0448;L702Ffs*10;10;c.2105dupT;p.Leu702Phefs*10;inframe insertion;pathogenic
+17;AZ017;F;III;LIMA;LIMA/CALLO;Hospital Edgardo Rebagliati Martins;29/05/1964;12/06/2018;18/10/2018;54;54;0;ovarian;Alto grado seroso;BRCA1;TMR15-0457;A1708E;17;c.5123C>A;p.Ala1708Glu;missense variant;pathogenic
+25;AZ025;F;IV;LIMA;LIMA/CALLO;AUNA;12/01/1965;27/06/2018;;53;;;ovarian;Alto grado seroso;BRCA1;TMR15-0477;L702Ffs*10;10;c.2105dupT;p.Leu702Phefs*10;inframe insertion;pathogenic
+46;AZ046;F;III;LIMA;LIMA/CALLO;Hospital Edgardo Rebagliati Martins;20/04/1946;18/09/2018;;72;;;ovarian;Alto grado seroso;BRCA1;TMR15-0574;L702Ffs*10;10;c.2105dupT;p.Leu702Phefs*10;inframe insertion;pathogenic
+57;AZ057;F;III;LIMA;LIMA/CALLO;Clínica Aliada;12/06/1975;11/10/2018;21/04/2020;43;44;1;ovarian;Alto grado seroso;BRCA1;TMR15-0612;S782Kfs*8;10;c.2344dupA;p.Ser782Lysfs*8;inframe insertion;pathogenic
+70;AZ070;F;IV;LIMA;LIMA/CALLO;AUNA;30/01/1954;5/11/2018;;64;;;ovarian;Alto grado seroso;BRCA1;TMR15-0642;P346S;;c.1036C>T;p.Pro346Ser;missense variant;benign
+80;AZ080;F;IV;LA LIBERTAD;COAST;AUNA;24/02/1985;19/11/2018;;33;;;ovarian;Alto grado seroso;BRCA1;TMR15-0657;I31M;3;c.93C>G;p.Ile31Met;missense variant;VUS
+81;AZ080;F;IV;LA LIBERTAD;COAST;AUNA;24/02/1985;19/11/2018;;33;;;ovarian;Alto grado seroso;BRCA2;TMR15-0657;I1034T;11;c.3101T>C;p.Ile1034Thr;missense variant;VUS
+87;AZ086;F;IV;AYACUCHO;HIGHLANDS;HN  PMP LNS, Lima;12/06/1969;20/11/2018;31/03/2020;49;50;1;ovarian;Alto grado seroso;BRCA1;TMR15-0673;Y831*;10;c.2493T>G;p.Tyr831*;stop gained;pathogenic
+120;AZ117;F;IV;LIMA;LIMA/CALLO;AUNA;9/10/1963;21/12/2018;23/01/2021;55;57;2;ovarian;Alto grado seroso;BRCA1;TMR15-0729;N363Ifs*11;10;c.1088delA;p.Asn363Ilefs*11;inframe deletion;pathogenic
+129;AZ126;F;III;ICA;COAST;INEN;11/06/1948;9/01/2019;22/11/2020;70;72;2;ovarian;Alto grado seroso;BRCA1;TMR15-0750;E1161K;10;c.3481G>A;p.Glu1161Lys;missense variant;VUS
+133;AZ130;F;III;LIMA;LIMA/CALLO;AUNA;17/08/1970;15/01/2019;;48;;;ovarian;Alto grado seroso;BRCA1;TMR15-0764;E23Vfs*17;2;c.68_69delAG;p.Glu23Valfs*17;inframe deletion;pathogenic
+155;AZ151;F;III;LAMBAYEQUE;COAST;AUNA;24/06/1963;14/02/2019;;55;;;ovarian;Alto grado seroso;BRCA1;TMR15-0812;T276Afs*14;10;c.815_824dupAGCCATGTGG;p.Thr276Alafs*14;inframe insertion ;pathogenic
+183;AZ176;F;IV;PIURA;COAST;AUNA;7/04/1968;15/03/2019;;50;;;ovarian;Alto grado seroso;BRCA1;TMR15-0855;T276Afs*14;10;c.815_824dupAGCCATGTGG;p.Thr276Alfs*14;inframe insertion;pathogenic
+201;AZ193;F;III;ICA;COAST;Privado;;28/03/2019;;;;;ovarian;Alto grado seroso;BRCA1;TMR15-0880;S267Kfs*19;10;c.798_799delTT;p.Ser267Lysfs*19;inframe deletion;pathogenic
+232;AZ222;F;III;LA LIBERTAD;COAST;AUNA;22/11/1960;8/05/2019;17/08/2020;58;59;1;ovarian;Bajo grado seroso;BRCA1;TMR15-0933;S1280C;10;c.3839C>G;p.Ser1280Cys;missense variant;VUS
+248;AZ238;F;IV;LIMA;LIMA/CALLO;AUNA;19/09/1954;28/05/2019;;64;;;ovarian;Endometroide;BRCA1;TMR15-0970;L702Ffs*10;10;c.2105dupT;p.Leu702Phefs*10;inframe insertion ;pathogenic
+249;AZ238;F;IV;LIMA;LIMA/CALLO;AUNA;19/09/1954;28/05/2019;;64;;;ovarian;Endometroide;BRCA1;TMR15-0970;;11;;del_exon_11;deletion variant;pathogenic
+250;AZ239;F;III;LIMA;LIMA/CALLO;INEN;1/03/1973;28/05/2019;;46;;;ovarian;Alto grado seroso;BRCA1;TMR15-0971;C47F;4;c.140G>T;p.Cys47Phe;missense variant;pathogenic
+255;AZ244;F;IV;CALLAO;LIMA/CALLO;Privado;1/04/1982;3/06/2019;;37;;;ovarian;Alto grado seroso;BRCA1;TMR15-0979;E849Kfs*44;10;c.2544delA;p.Glu849Lysfs*44;inframe deletion;pathogenic
+259;AZ248;F;IV;LIMA;LIMA/CALLO;AUNA;12/01/1965;3/06/2019;;54;;;ovarian;Alto grado seroso;BRCA1;TMR15-0984;L702Ffs*10;10;c.2105dupT;p.Leu702Phefs*10;inframe insertion;pathogenic
+267;AZ256;F;IV;AREQUIPA;COAST;AUNA;24/06/1954;10/06/2019;;64;;;ovarian;Alto grado seroso;BRCA1;TMR15-0998;D96G;5;c.287A>G;p.Asp96Gly;missense variant;VUS
+272;AZ261;F;IV;AREQUIPA;COAST;Privado;11/05/1959;14/06/2019;;60;;;ovarian;Alto grado seroso;BRCA1;TMR15-1008;K947*;10;c.2839A>T;p.Lys94*;missense variant;pathogenic
+280;AZ269;F;III;ICA;COAST;Hospital Nacional Adolfo Guevara Velasco;10/01/1958;20/06/2019;;61;;;ovarian;Celulas claras;BRCA1;TMR15-1021;L1267*;10;c.3800T>G;p.Leu1267*;missense variant;pathogenic
+302;AZ288;F;IV;LIMA;LIMA/CALLO;AUNA;7/06/1974;15/07/2019;;45;;;ovarian;Alto grado seroso;BRCA1;TMR15-1062;R1720W;18;c.5158C>T;p.Arg1720Trp;missense variant;pathogenic
+315;AZ301;F;III;ANCASH;COAST;Hospital Edgardo Rebagliati Martins;4/02/1948;24/07/2019;19/11/2019;71;71;0;ovarian;Alto grado seroso;BRCA1;TMR15-1081;C47F;4;c.140G>T;p.Cys47Phe;missense variant;pathogenic
+322;AZ308;F;IV;LIMA;LIMA/CALLO;AUNA;2/04/1953;30/07/2019;;66;;;ovarian;Endometroide;BRCA1;TMR15-1091;T884Ifs*18;10;c.2649_2650delAA;p.Thr884Ilefs*18;inframe deletion;pathogenic
+330;AZ316;F;IV;LIMA;LIMA/CALLO;AUNA;25/10/1971;8/08/2019;10/10/2019;47;47;0;ovarian;Celulas claras;BRCA1;TMR15-1102;A1708E;17;c.5123C>A;p.Ala1708Glu;missense variant;pathogenic
+335;AZ321;F;III;HUANUCO;HIGHLANDS;Privado;18/09/1955;15/08/2019;;63;;;ovarian;Alto grado seroso;BRCA1;TMR15-1112;T276Afs*14;10;c.815_824dupAGCCATGTGG;p.Thr276Alafs*14;inframe insertion;pathogenic
+337;AZ323;F;IV;LIMA;LIMA/CALLO;Privado;27/06/1946;19/08/2019;;73;;;ovarian;Alto grado seroso;BRCA1;TMR15-1120;I21Rfs*18;2;c.62_68delTCTTA;p.Ile21Argfs*18;inframe deletion;pathogenic
+343;AZ328;F;III;LIMA;LIMA/CALLO;AUNA;10/11/1964;29/08/2019;;54;;;ovarian;Alto grado seroso;BRCA1;TMR15-1130;E1373G;11;c.4118A>G;p.Glu1373Gly;missense variant;VUS
+344;AZ328;F;III;LIMA;LIMA/CALLO;AUNA;10/11/1964;29/08/2019;;54;;;ovarian;Alto grado seroso;BRCA1;TMR15-1130;E1353K;10;c.4057G>A;p.Glu1353Lys;missense variant;VUS
+352;AZ334;F;IV;ICA;COAST;Privado;19/03/1950;5/09/2019;;69;;;ovarian;Alto grado seroso;BRCA1;TMR15-1139;R71G;4;c.211A>G;p.Arg71Gly;missense variant;likely pathogenic
+361;AZ345;F;III;AYACUCHO;HIGHLANDS;AUNA;7/05/1963;23/09/2019;;56;;;ovarian;Alto grado seroso;BRCA1;TMR15-1162;N567Kfs*3;10;c.1700dupA;p.Asn567Lysfs*3;inframe insertion;pathogenic
+388;AZ367;F;IV;LIMA;LIMA/CALLO;AUNA;24/11/1966;7/10/2019;;52;;;ovarian;Alto grado seroso;BRCA1;TMR15-1200;A1708E;17;c.5123C>A;p.Ala1708Glu;missense variant;pathogenic
+401;AZ379;F;III;PIURA;COAST;Clínica Internacional;7/06/1968;17/10/2019;;51;;;ovarian;Alto grado seroso;BRCA1;TMR15-1227;P968Lfs*33;10;c.2901_2902dupTC;p.Pro968Leufs*33;inframe insertion;pathogenic
+408;AZ386;F;IV;LIMA;LIMA/CALLO;AUNA;23/10/1965;21/10/2019;;53;;;ovarian;Alto grado seroso;BRCA1;TMR15-1235;L702Ffs*10;10;c.2105dupT;p.Leu702Phefs*10;inframe insertion;pathogenic
+445;AZ421;F;III;LA LIBERTAD;COAST;Clínica Aliada;7/07/1968;6/12/2019;;51;;;ovarian;Alto grado seroso;BRCA1;TMR15-1302;K739*;10;c.2215A>T;p.Lys739*;missense variant;pathogenic
+459;AZ433;F;III;LIMA;LIMA/CALLO;Clínica Aliada;1/08/1970;26/12/2019;;49;;;ovarian;Alto grado seroso;BRCA1;TMR15-1339;E84*;5;c.250G>T;p.Glu84*;missense variant;pathogenic
+472;AZ444;F;III;CAJAMARCA;HIGHLANDS;Clínica Aliada;23/08/1982;17/02/2020;;37;;;ovarian;Alto grado seroso;BRCA1;TMR15-1389;C47F;4;c.140G>T;p.Cys47Phe;missense variant;pathogenic
+475;AZ447;F;III;LIMA;LIMA/CALLO;AUNA;20/11/1971;17/02/2020;;48;;;ovarian;Alto grado seroso;BRCA1;TMR15-1396;T276Afs*14;10;c.815_824dupAGCCATGTGG;p.Thr276Alafs*14;inframe insertion;pathogenic
+481;AZ453;F;IV;TUMBES;COAST;Privado;25/10/1978;24/02/2020;;41;;;ovarian;Alto grado seroso;BRCA1;TMR15-1411;V923Lfs*77;10;c.2766delA;p.Val923Leufs*77;inframe deletion;pathogenic
+489;AZ461;F;III;LIMA;LIMA/CALLO;AUNA;26/09/1967;28/02/2020;;52;;;ovarian;Alto grado seroso;BRCA1;TMR15-1427;R1495M;13;c.4484G>T;p.Arg1495Met;missense variant;pathogenic
+499;AZ468;F;III;ICA;COAST;AUNA;21/09/1963;18/03/2020;;56;;;ovarian;Alto grado seroso;BRCA1;TMR15-1451;N1002Tfs*22;10;c.3005delA;p.Asn1002Thrfs*22;inframe deletion;pathogenic
+501;AZ470;F;IV;PIURA;COAST;AUNA;10/02/1967;18/03/2020;;53;;;ovarian;Alto grado seroso;BRCA1;TMR15-1453;K654Sfs*47;10;c.1961delA;p.Lys654Serfs*47;inframe deletion;pathogenic
+545;AZ502;F;IV;LIMA;LIMA/CALLO;AUNA;5/11/1981;30/06/2020;;38;;;ovarian;Alto grado seroso;BRCA1;TMR15-1542;E23Vfs*17;2;c.68_69delAG;p.Glu23Valfs*17;inframe deletion;pathogenic
+551;AZ508;F;IV;CAJAMARCA;HIGHLANDS;Clínica Aliada;23/08/1982;8/07/2020;;37;;;ovarian;Alto grado seroso;BRCA1;TMR15-1555;C47F;4;c.140G>T;p.Cys47Phe;missense variant;pathogenic
+553;AZ509;F;IV;AREQUIPA;COAST;Clínica Vallesur;8/05/1963;9/07/2020;;57;;;ovarian;Endometroide;BRCA1;TMR15-1557;S782Kfs*8;10;c.2344dupA;p.Ser782Lysfs*8;inframe insertion;pathogenic
+572;AZ527;F;III;LIMA;LIMA/CALLO;AUNA;16/12/1981;13/08/2020;;38;;;ovarian;Alto grado seroso;BRCA1;TMR15-1612;F1226V;10;c.3676T>G;p.Phe1226Val;missense variant;VUS
+575;AZ530;F;IV;LIMA;LIMA/CALLO;AUNA;9/07/1984;25/08/2020;;36;;;ovarian;Alto grado seroso;BRCA1;TMR15-1623;R1751*;19;c.5251C>T;p.Arg1751*;missense variant;pathogenic
+579;AZ534;F;III;LIMA;LIMA/CALLO;INEN;7/08/1981;31/08/2020;;39;;;ovarian;Alto grado seroso;BRCA1;TMR15-1633;E23Vfs*17;2;c.68_69delAG;p.Glu23Valfs*17;inframe deletion;pathogenic
+585;NA;F;IV;LIMA;LIMA/CALLO;AUNA;29/05/1976;18/09/2020;;44;;;ovarian;Alto grado seroso;BRCA1;TMR15-1662;L702Ffs*10;10;c.2105dupT;p.Leu702Phefs*10;inframe insertion;pathogenic
+587;AZ540;F;IV;LIMA;LIMA/CALLO;AUNA;11/09/1967;25/09/2020;;53;;;ovarian;Alto grado seroso;BRCA1;TMR15-1668;L1209*;10;c.3626T>A;p.Leu1209*;missense variant;pathogenic
+589;AZ542;F;IV;LIMA;LIMA/CALLO;AUNA;5/05/1968;25/09/2020;;52;;;ovarian;Alto grado seroso;BRCA1;TMR15-1670;E23Vfs*17;2;c.68_69delAG;p.Glu23Valfs*17;inframe deletion;pathogenic
+611;AZ558;F;III;LIMA;LIMA/CALLO;AUNA;14/09/1956;17/10/2020;;64;;;ovarian;Alto grado seroso;BRCA1;TMR15-1711;L702Ffs*10;10;c.2105dupT;p.Leu702Phefs*10;inframe insertion;pathogenic
+618;AZ564;F;IV;PIURA;COAST;Clínica El Golf;6/06/1986;23/10/2020;;34;;;ovarian;Alto grado seroso;BRCA1;TMR15-1727;K654Sfs*47;10;c.1961delA;p.Lys654Serfs*47;inframe deletion;pathogenic
+642;AZ585;F;III;LIMA;LIMA/CALLO;Clínica Angloamericana;3/12/1974;26/11/2020;;45;;;ovarian;Alto grado seroso;BRCA1;TMR15-1779;L702Ffs*10;10;c.2105dupT;p.Leu702Phefs*10;inframe insertion;pathogenic
+665;AZ603;F;III;LIMA;LIMA/CALLO;Clínica Internacional;30/08/1965;18/01/2021;;55;;;ovarian;Alto grado seroso;BRCA1;TMR15-1844;G1560V;15;c.4679G>T;p.Gly1560Val;missense variant;VUS
+699;AZ635;F;IV;LIMA;LIMA/CALLO;AUNA;25/07/1943;26/03/2021;;77;;;ovarian;Alto grado seroso;BRCA1;TMR15-1930;H971Qfs*29;10;c.2913delT;p.His971Glnfs*29;inframe deletion;pathogenic
+18;AZ018;F;IV;CALLAO;LIMA/CALLO;AUNA;8/12/1968;12/06/2018;;49;;;breast;HER2- RH-;BRCA2;TMR15-0458;L146P;5;c.437T>C;p.Leu146Pro;missense variant;VUS
+72;AZ072;F;IV;LIMA;LIMA/CALLO;AUNA;13/02/1962;2/11/2018;30/03/2019;56;57;1;breast;HER2- RH-;BRCA2;TMR15-0644;N1822I;11;c.5465A>T;p.Asn1822Ile;missense variant;VUS
+147;AZ143;F;III;ICA;COAST;INEN;16/09/1964;1/02/2019;;54;;;breast;HER2- RH-;BRCA2;TMR15-0795;A1799V;11;c.5396C>T;p.Ala1779Val;missense variant;VUS
+171;AZ165;F;IV;LIMA;LIMA/CALLO;Clínica Centenario Peruano Japonesa;26/10/1944;6/03/2019;;74;;;breast;HER2- RH- ;BRCA2;TMR15-0840;K1132Tfs*11;11;c.3395_3396delAA;p.Lys1132Arg;inframe deletion;pathogenic
+204;AZ196;F;IV;LIMA;LIMA/CALLO;AUNA;5/02/1971;28/03/2019;;48;;;breast;HER2- RH- ;BRCA2;TMR15-0883;W993*;11;c.2979G>A;p.Trp993*;missense variant;pathogenic
+235;AZ225;F;III;LA LIBERTAD;COAST;AUNA;6/01/1969;9/05/2019;;50;;;breast;HER2- RH+;BRCA2;TMR15-0936;N1822I;11;c.5465A>T;p.Asn1822Ile;missense variant;VUS
+362;AZ346;F;III;HUANUCO;HIGHLANDS;AUNA;7/12/1951;23/09/2019;;67;;;breast;HER2- RH-;BRCA2;TMR15-1163;I2821T;19;c.8462T>C;p.Ile2821Thr;missense variant;VUS
+419;AZ397;F;IV;LIMA;LIMA/CALLO;AUNA;6/08/1953;30/10/2019;;66;;;breast;HER2- RH+;BRCA2;TMR15-1252;;;c.7617+6T>C;splicing_region;splicing variant;VUS
+420;AZ398;F;IV;LIMA;LIMA/CALLO;AUNA;8/10/1959;31/10/2019;;60;;;breast;HER2- RH+;BRCA2;TMR15-1254;E2918*;21;c.8752G>T;p.Glu2918*;missense variant;pathogenic
+431;AZ408;F;III;HUANUCO;HIGHLANDS;Clincia Internacional;20/09/1965;15/11/2019;;54;;;breast;HER2- RH-;BRCA2;TMR15-1270;N1822I;11;c.5465A>T;p.Asn1822Ile;missense variant;VUS
+543;NA;F;III;LIMA;LIMA/CALLO;AUNA;22/10/1989;25/06/2020;;30;;;breast;HER2- RH+;BRCA2;TMR15-1540;K2673R;18;c.8018A>G;p.Lys2673Arg;missense variant;VUS
+555;AZ511;F;III;LIMA;LIMA/CALLO;Clínica Aliada;25/10/1967;14/07/2020;;52;;;breast;HER2- RH-;BRCA2;TMR15-1564;Y600Rfs*14;10;c.797_1801delTTATA;p.Tyr600Argfs*14;inframe deletion;pathogenic
+556;AZ512;F;IV;LA LIBERTAD;COAST;AUNA;27/10/1978;16/07/2020;;41;;;breast;HER2- RH-;BRCA2;TMR15-1566;Q3047H;24;c.9141G>T;p.Gln3047His;missense variant;VUS
+566;AZ522;F;III;LIMA;LIMA/CALLO;AUNA;30/12/1974;31/07/2020;;45;;;breast;HER2- RH+;BRCA2;TMR15-1593;I2675Dfs*6;18;c.8021dupA;p.Ile2675Aspfs*6;inframe insertion;pathogenic
+667;PF004;F;IV;LA LIBERTAD;COAST;AUNA;15/10/1960;22/01/2021;;60;;;breast;HER2- RH-;BRCA2;TMR15-1848;V1873*;11;c.5616delA;p.Val1873*;inframe deletion;pathogenic
+673;NA;F;III;CUSCO;HIGHLANDS;Privado;;29/01/2021;;;;;breast;HER2- RH-;BRCA2;TMR15-1862;I2675V;18;c.8023A>G;p.Ile2675Val;missense variant;pathogenic
+688;AZ624;F;III;LA LIBERTAD;COAST;ESSALUD ;13/06/1982;15/03/2021;;38;;;breast;HER2- RH+;BRCA2;TMR15-1907;Q2009Afs*9;11;c.6024dupG;p.Gln2009Alafs*9;inframe insertion;pathogenic
+1;AZ001;F;III;PIURA;COAST;INEN;30/11/1955;26/04/2018;;62;;;ovarian;Alto grado seroso;BRCA2;TMR15-0397;A1170V;11;c.3509C>T;p.Ala1170Val;missense variant;VUS
+20;AZ020;F;III;CAJAMARCA;HIGHLANDS;AUNA;4/02/1958;13/06/2018;;60;;;ovarian;Alto grado seroso;BRCA2;TMR15-0462;Q2009Afs*9;11;c.6024dupG;p.Gln2009Alafs*9;inframe insertion;pathogenic
+22;AZ022;F;IV;ANCASH;COAST;AUNA;28/03/1951;22/06/2018;28/06/2018;67;67;0;ovarian;Alto grado seroso;BRCA2;TMR15-0469;V220Ifs*4;8;c.658_659delGT;p.Val220Ilefs*4;inframe deletion;pathogenic
+45;AZ045;F;IV;LIMA;LIMA/CALLO;Privado;6/02/1950;14/09/2018;;68;;;ovarian;Alto grado seroso;BRCA2;TMR15-0568;S758R;11;c.2274T>G;p.Ser758Arg;missense variant;VUS
+61;AZ061;F;III;LIMA;LIMA/CALLO;INEN;24/04/1969;29/10/2018;26/01/2020;49;50;1;ovarian;Alto grado seroso;BRCA2;TMR15-0625;I1034T;11;c.3101T>C;p.Ile1034Thr;missense variant;VUS
+69;AZ069;F;IV;LAMBAYEQUE;COAST;Clinica San Pablo;23/04/1953;5/11/2018;;65;;;ovarian;Alto grado seroso;BRCA2;TMR15-0641;E1734Gfs*9;11;c.5200dupG;p.Glu1734Glyfs*9;inframe insertion;pathogenic
+94;AZ092;F;III;LIMA;LIMA/CALLO;Clínica Aliada;14/11/1956;29/11/2018;;62;;;ovarian;Alto grado seroso;BRCA2;TMR15-0687;N1822I;11;c.5465A>T;p.Asn1822Ile;missense variant;VUS
+101;AZ100;F;IV;ANCASH;COAST;Privado;;10/12/2018;;0;;;ovarian;Alto grado seroso;BRCA2;TMR15-0701;F625S;10;c.1874T>C;p.Phe625Ser;missense variant;VUS
+103;AZ102;F;IV;LIMA;LIMA/CALLO;AUNA;26/12/1979;10/12/2018;7/01/2020;38;40;2;ovarian;Alto grado seroso;BRCA2;TMR15-0703;P69T;3;c.205C>A;p.Pro69Thr;missense variant;VUS
+156;AZ151;F;III;LAMBAYEQUE;COAST;AUNA;24/06/1963;14/02/2019;;55;;;ovarian;Alto grado seroso;BRCA2;TMR15-0812;I2675V;18;c.8023A>G;p.Ile2675Val;missense variant;pathogenic
+159;AZ154;F;IV;ICA;COAST;Hospital Edgardo Rebagliati Martins;6/12/1970;20/02/2019;;48;;;ovarian;Alto grado seroso;BRCA2;TMR15-0819;N1880K;;c.5640T>G;p.Asn1880Lys;missense variant;benign
+167;AZ161;F;III;LIMA;LIMA/CALLO;AUNA;8/06/1964;1/03/2019;;54;;;ovarian;Alto grado seroso;BRCA2;TMR15-0833;S1001Ffs*8;11;c.3001dupT;p.Ser1001Phefs*8;inframe insertion;pathogenic
+173;AZ167;F;IV;JUNIN;HIGHLANDS;INEN;6/05/1974;7/03/2019;22/05/2019;44;45;1;ovarian;Alto grado seroso;BRCA2;TMR15-0843;;10;;del_exon_10;deletion variant;pathogenic
+205;AZ197;F;III;LIMA;LIMA/CALLO;Privado;2/09/1963;29/03/2019;;55;;;ovarian;Alto grado seroso;BRCA2;TMR15-0889;V3079Ffs*4;24;c.9235delG;p.Val3079Phefs*4;inframe deletion;pathogenic
+231;AZ221;F;IV;LIMA;LIMA/CALLO;Clínica Centenario Peruano Japonesa;26/10/1944;7/05/2019;;74;;;ovarian;Alto grado seroso ;BRCA2;TMR15-0932;K1132Tfs*11;11;c.3395_3396delAA;p.Lys1132Arg;inframe deletion;pathogenic
+238;AZ230;F;IV;LIMA;LIMA/CALLO;AUNA;27/10/1967;13/05/2019;;51;;;ovarian;Alto grado seroso;BRCA2;TMR15-0943;L366*;10;c.1097T>G;p.Leu366*;missense variant;pathogenic
+246;AZ236;F;III;PIURA;COAST;Privado;30/04/1964;28/05/2019;;55;;;ovarian;Alto grado seroso;BRCA2;TMR15-0968;V3079Ffs*4;24;c.9235del;p.Val3079Phefs*4;inframe deletion;pathogenic
+247;AZ237;F;IV;LIMA;LIMA/CALLO;Privado;11/08/1965;28/05/2019;;53;;;ovarian;Alto grado seroso;BRCA2;TMR15-0969;V3079Ffs*4;24;c.9235del;p.Val3079Phefs*4;inframe deletion;pathogenic
+253;AZ242;F;IV;AREQUIPA;COAST;Privado;7/08/1943;31/05/2019;;75;;;ovarian;Alto grado seroso;BRCA2;TMR15-0976;L2587F;16;c.7759C>T;p.Leu258Phe;missense variant;VUS
+258;AZ247;F;III;UCAYALI;JUNGLE;Hospital Edgardo Rebagliati Martins;3/09/1981;3/06/2019;;37;;;ovarian;Alto grado seroso;BRCA2;TMR15-0983;V1229I;11;c.3685G>A;p.Val1229Ile;missense variant;VUS
+275;AZ264;F;IV;LA LIBERTAD;COAST;AUNA;20/03/1943;18/06/2019;;76;;;ovarian;Alto grado seroso;BRCA2;TMR15-1014;;;c.7976+5G>T;splicing_intronic;splicing variant;VUS
+282;AZ271;F;IV;ANCASH;COAST;AUNA;9/11/1942;25/06/2019;;76;;;ovarian;Alto grado seroso;BRCA2;TMR15-1024;Q2009Afs*9;11;c.6024dupG;p.IGln2009Alafs*9;inframe insertion;pathogenic
+288;AZ276;F;III;LIMA;LIMA/CALLO;Hospital Edgardo Rebagliati Martins;2/11/1942;27/06/2019;;76;;;ovarian;Alto grado seroso;BRCA2;TMR15-1033;I2675V;18;c.8023A>G;p.Ile2675Val;missense variant;pathogenic
+289;AZ277;F;IV;AREQUIPA;COAST;AUNA;14/06/1965;1/07/2019;;54;;;ovarian;Alto grado seroso;BRCA2;TMR15-1037;A2864del;20;c.8590_8592delGCC;p.Ala864del;inframe deletion;VUS
+305;AZ291;F;IV;LIMA;LIMA/CALLO;Privado;11/10/1966;16/07/2019;;52;;;ovarian;Alto grado seroso;BRCA2;TMR15-1065;K437Ifs*22;10;c.1310_1313delAAGA;p.Lys437Ilefs*22;inframe deletion;pathogenic
+307;AZ293;F;IV;LIMA;LIMA/CALLO;AUNA;26/12/1979;16/07/2019;7/01/2020;39;40;1;ovarian;Alto grado seroso;BRCA2;TMR15-1067;P69T;3;c.205C>A;p.Pro69Thr;missense variant;VUS
+325;AZ311;F;III;APURIMAC;HIGHLANDS;Hospital Edgardo Rebagliati Martins;29/11/1953;1/08/2019;;65;;;ovarian;Alto grado seroso;BRCA2;TMR15-1096;L146P;5;c.437T>A;p.Leu146Pro;missense variant;VUS
+351;AZ333;F;IV;LIMA;LIMA/CALLO;AUNA;28/05/1964;4/09/2019;;55;;;ovarian;Alto grado seroso;BRCA2;TMR15-1137;Q2823R;19;c.8468A>G;p.Gln2823Arg;missense variant;VUS
+375;AZ356;F;III;LAMBAYEQUE;COAST;Hospital Regional de Lambayeque;22/01/1971;23/09/2019;7/06/2020;48;49;1;ovarian;Endometroide;BRCA2;TMR15-1176;I2675V;18;c.8023A>G;p.Ile2675Val;missense variant;pathogenic
+376;AZ355;F;III;LIMA;LIMA/CALLO;Clínica Aliada;13/05/1973;24/09/2019;3/10/2020;46;47;1;ovarian;Alto grado seroso;BRCA2;TMR15-1177;G1892S;11;c.5674G>A;p.Gly1892Ser;missense variant;VUS
+397;AZ375;F;III;LIMA;LIMA/CALLO;AUNA;8/06/1964;16/10/2019;;55;;;ovarian;Alto grado seroso;BRCA2;TMR15-1221;S1001Ffs*8;11;c.3001dupTT;p.Ser1001Phefs*8;inframe insertion;pathogenic
+426;AZ404;F;III;LIMA;LIMA/CALLO;Privado;24/01/1961;13/11/2019;;58;;;ovarian;Alto grado seroso;BRCA2;TMR15-1262;L1768Rfs*5;11;c.5303_5304delTT;p.Leu1768Argfs*5;inframe deletion;pathogenic
+444;AZ420;F;IV;LIMA;LIMA/CALLO;AUNA;3/05/1979;4/12/2019;;40;;;ovarian;Alto grado seroso;BRCA2;TMR15-1299;V1229I;11;c.3685G>A;p.Val1229Ile;missense variant;VUS
+455;AZ429;F;III;ANCASH;COAST;AUNA;19/02/1955;19/12/2019;;64;;;ovarian;Alto grado seroso;BRCA2;TMR15-1322;Q2009Afs*9;11;c.6024dupG;p.Gln2009Alafs*9;inframe insertion;pathogenic
+473;AZ445;F;IV;LIMA;LIMA/CALLO;AUNA;14/12/1957;17/02/2020;;62;;;ovarian;Celulas claras;BRCA2;TMR15-1394;D3062G;24;c.9185A>G;p.Asp3062Gly;missense variant;VUS
+474;AZ446;F;III;LIMA;LIMA/CALLO;AUNA;8/05/1951;17/02/2020;;68;;;ovarian;Endometroide;BRCA2;TMR15-1395;I975S;11;c.2924T>G;p.Ile975Ser;missense variant;VUS
+485;AZ457;F;IV;LIMA;LIMA/CALLO;AUNA;22/07/1954;27/02/2020;;65;;;ovarian;Alto grado seroso;BRCA2;TMR15-1421;Y1710*;11;c.5130_5133delTGTA;p.Tyr1710*;inframe deletion;pathogenic
+490;AZ462;F;III;LIMA;LIMA/CALLO;Clínica Internacional;27/08/1961;2/03/2020;;58;;;ovarian;Alto grado seroso;BRCA2;TMR15-1431;T3085Nfs*26;24;c.9253dupA;p.Thr3085Asnfs*26;inframe insertion;pathogenic
+517;AZ483;F;IV;LIMA;LIMA/CALLO;Privado;6/07/1966;4/05/2020;;53;;;ovarian;Alto grado seroso;BRCA2;TMR15-1486;Y3009Sfs*7;23;c.9026_9030delATCAT;p.Tyr3009Serfs*7;inframe deletion;pathogenic
+536;AZ497;F;III;LIMA;LIMA/CALLO;Clínica El Golf;11/09/1964;8/06/2020;;55;;;ovarian;Alto grado seroso;BRCA2;TMR15-1524;V2151Sfs*25;11;c.6450dupA;p.Val2151Serfs*25;inframe insertion ;pathogenic
+537;AZ497;F;III;LIMA;LIMA/CALLO;Clínica El Golf;11/09/1964;8/06/2020;;55;;;ovarian;Alto grado seroso;BRCA2;TMR15-1524;A2231G;11;c.6692C>G;p.Ala2231Gly;missense variant;VUS
+538;AZ498;F;III;LIMA;LIMA/CALLO;Clínica Aliada;4/05/1965;15/06/2020;;55;;;ovarian;Alto grado seroso;BRCA2;TMR15-1529;K410*;10;c.1228A>T;p.Lys410*;missense variant;pathogenic
+559;AZ515;F;IV;LIMA;LIMA/CALLO;Clínica Ricardo Palma;24/09/1961;20/07/2020;;58;;;ovarian;Alto grado seroso;BRCA2;TMR15-1570;Q3026Rfs*2;23;c.9077delA;p.Gln3026Argfs*2;inframe deletion;pathogenic
+588;AZ541;F;IV;CALLAO;LIMA/CALLO;AUNA;21/03/1955;25/09/2020;;65;;;ovarian;Alto grado seroso;BRCA2;TMR15-1669;I1034T;11;c.3101T>C;p.Ile1034Thr;missense variant;VUS
+597;AZ548;F;III;LIMA;LIMA/CALLO;Clínica Aliada;25/10/1967;29/09/2020;;52;;;ovarian;Alto grado seroso;BRCA2;TMR15-1684;Y600Rfs*14;10;c.1797_1801delTTATA;p.Tyr600Argfs*14;inframe deletion;pathogenic
+600;AZ550;F;IV;LIMA;LIMA/CALLO;Clínica Internacional;25/08/1961;1/10/2020;;59;;;ovarian;Alto grado seroso;BRCA2;TMR15-1690;T3085Nfs*26;24;c.9253dupA;p.Thr3085Asnfs*26S517;inframe insertion;pathogenic
+634;AZ578;F;III;LIMA;LIMA/CALLO;AUNA;17/08/1973;10/11/2020;;47;;;ovarian;Alto grado seroso;BRCA2;TMR15-1760;I2675V;18;c.8023A>G;p.Ile2675Val;missense variant;pathogenic
+679;NA;F;IV;LIMA;LIMA/CALLO;Privado;;26/02/2021;;;;;ovarian;Alto grado seroso;BRCA2;TMR15-1888;I2675V;18;c.8023A>G;p.Ile2675Val;missense variant;pathogenic
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
