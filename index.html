@@ -1,27 +1,28 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="utf-8">
-<title>show data from CSV</title>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Sales Scientist</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+</style>
+<script src=""></script>
+<body style="background-color:gray;">
 
-<script type="text/javascript">
+<div class="login">
+        <div style="margin-left:10%; margin-right:10%;",  outline-color: gray;>
+        <img width="150" height="150", src="https://raw.githubusercontent.com/spe301/Sales-Scientist/main/images/a5773e62e5ea4088b89df2fdea7eb190.png">
+        </div>
+
+{{ data | safe }}
 
 
-var dataset;  //Declare global var
+<br>
+<br>
 
-var svg = d3.select("body")
-            .append("svg")
-            .attr("width", 200)
-            .attr("height", 500);
+<div class="">
+ <p>Your CSV files have been updated and saved</p>
+</div>
 
-
-d3.csv("data.csv", function(data) {
-        //Hand CSV data off to global variable so it's accessible later.
-        dataset = data;
-        //Call some other functions that
-        //generate your visualization, e.g.:
-        showdata();
-
-});
+</body>
+</html>
